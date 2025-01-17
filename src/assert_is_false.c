@@ -6,13 +6,13 @@
 /*   By: alopez-v <alopez-v@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/17 13:16:50 by alopez-v          #+#    #+#             */
-/*   Updated: 2025/01/17 13:21:56 by alopez-v         ###   ########.fr       */
+/*   Updated: 2025/01/17 13:51:57 by alopez-v         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../includes/testlib.h"
 
-void	assert_is_false(int value)
+void	assert_is_false(const int value)
 {
 	assert_is_true(!value);
 }
