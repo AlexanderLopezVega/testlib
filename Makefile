@@ -43,11 +43,11 @@ $(OBJ_DIR)/%.o: $(SRC_DIR)/%.c
 
 #	Clean object files
 clean:
-	rm -f $(OBJ_DIR)
+	rm -r $(OBJ_DIR)
 
 #	Clean object files and binary files
 fclean:	clean
-	rm -f $(BIN_DIR)
+	rm -r $(BIN_DIR)
 
 #	Recompile all
 re:	fclean all
