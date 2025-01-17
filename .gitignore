@@ -1,0 +1,27 @@
+#	Whitelist ignore
+*
+
+#	Git
+.git
+.gitignore
+
+#	Compilation
+!Makefile
+
+#	Source and include files
+!src
+src/*
+!src/assert_are_equal.c
+!src/assert_greater_than.c
+!src/assert_is_false.c
+!src/assert_is_null.c
+!src/assert_is_true.c
+!src/assert_lesser_than.c
+!src/assert_not_equal.c
+!src/assert_not_null.c
+!src/print_error.c
+!src/print_ok.c
+
+!includes
+includes/*
+!includes/testlib.h
